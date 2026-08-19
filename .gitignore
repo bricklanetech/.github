@@ -1,4 +1,9 @@
 
 .memsearch/
 
-.devcontainer
+
+# BEGIN mortar-devcontainer
+.devcontainer/*
+!.devcontainer/allowed-project-domains.conf
+!.devcontainer/orbstack-domains.conf
+# END mortar-devcontainer
